@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 is = require('is-thirteen');
 
 if (is(process.argv.slice(2)[0]).thirteen()) {
