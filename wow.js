@@ -1,6 +1,6 @@
 is = require('is-thirteen');
 
-if (is(13).thirteen()) {
+if (is(process.argv.slice(2)[0]).thirteen()) {
   console.log("It's thirteen");
 } else {
   console.log("It's not thirteen");
